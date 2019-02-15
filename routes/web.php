@@ -13,14 +13,14 @@
 
 Route::get('/', function () {
 
-	$tasks = [	
-		'Go to the market',
-		'Go to the store',
-		'Go to work'
-	];
+	// $tasks = [
+	// 	'Go to the market',
+	// 	'Go to the store',
+	// 	'Go to work'
+	// ];
 
     return view('welcome',[
-    	'tasks' => $tasks
+    	'foo' => 'bar'
     ]);
 });
 
