@@ -16,7 +16,7 @@
 		<a href="/contact">Contact</a>
 	</li>
 </ul>
-
+xx
 @yield('content')
 
 </body>
